@@ -1,0 +1,9 @@
+.header {
+  border: 3px solid red;
+  background: black;
+  color: white;
+  &__logo {
+    width: 100px;
+    height: 50px;
+  }
+}

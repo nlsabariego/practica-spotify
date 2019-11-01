@@ -1,33 +1,5 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-.header {
-  border: 3px solid red;
-  background: black;
-  color: white;
-  &__logo {
-    width: 100px;
-    height: 25px;
-  }
-}
-
-.hero {
-  border: 3px solid yellow;
-  &--article {
-    border: 2px solid #fabada;
-  }
-
-  &__button {
-  }
-}
-
-.main {
-  border: 3px solid green;
-}
-
-.footer {
-  border: 3px solid blue;
-}
+@import "core/reset";
+@import "layouts/header";
+@import "layouts/main";
+@import "layouts/section";
+@import "layouts/footer";
