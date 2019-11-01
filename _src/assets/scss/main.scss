@@ -1,8 +1,32 @@
-@import 'core/settings';
-@import 'core/links';
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
-	height: 100vh;
+.header {
+  border: 3px solid red;
+  background: black;
+  &__logo {
+    width: 100px;
+    height: 25px;
+  }
+}
+
+.hero {
+  border: 3px solid yellow;
+  &--article {
+    border: 2px solid #fabada;
+  }
+
+  &__button {
+  }
+}
+
+.main {
+  border: 3px solid green;
+}
+
+.footer {
+  border: 3px solid blue;
 }
