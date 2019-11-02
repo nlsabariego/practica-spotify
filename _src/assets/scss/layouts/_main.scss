@@ -1,4 +1,10 @@
 .main {
-    border: 3px solid green;
+  border: 3px solid yellow;
+  margin-top: 4.125rem;
+
+  &__header {
+    background: #509bf5;
+    height: 50vh;
+    color: white;
   }
-  
+}
