@@ -35,6 +35,9 @@
 .premium {
   margin: auto;
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 
   &__header {
     text-align: center;
@@ -43,5 +46,31 @@
     display: inline-block;
     font-size: 48px;
     font-weight: 900;
+  }
+  &__features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &--list {
+      list-style: none;
+      display: flex;
+      align-items: flex-start;
+      padding: 30px;
+      width: 70vw;
+    }
+
+    &--image {
+      width: 97px;
+    }
+
+    &--title {
+      font-weight: bolder;
+      font-size: 30px;
+    }
+    &--desc {
+      font-size: 25px;
+    }
   }
 }
